@@ -155,33 +155,6 @@ app.layout = html.Section(
     html.Div(header,className="m-0 p-0 fixed-top"),
 
     
-#     html.Div(dbc.NavbarSimple(
-#     children=[
-#         html.Div([
-#         dbc.Button(
-#         [
-#         dcc.Checklist(id='checklist-trim',  # Ajoutez un ID unique
-#         options=[{'label': str(trim), 'value': trim} for trim in sales['trimestre'].unique()],
-#         inline=True,
-#         className='text-white ')],style={'backgroundColor': '#00bbc9','margin-right':'8px'}),
-        
-#         dbc.Button([dcc.Checklist(id='checklist-annee',
-#         options=[{'label': str(annee), 'value': annee} for annee in sales['annee'].unique()],
-#         inline=True,
-#         className='text-white')],style={'backgroundColor': '#00bbc9'}),
-#         ],style={'margin-left': 'auto', 'display': 'flex', 'align-items': 'center'})
-        
-#     ],
-   
-#     brand="sales analysis",
-#     brand_href="#",
-#     color="#00747c",
-#     dark=True,
-    
-    
-    
-# ),
-# className="fixed-top",
 
 # ),############# header###############################################################
         html.Section(
